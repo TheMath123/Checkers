@@ -6,10 +6,12 @@
 
 :root{
   --black: #0f0f0f;
-  --white: #f0f0f0;
+  --border-black: #202020;
+  --white: #ececec;
   --red: #800000;
+  --border-red: #490000;
 
-  --tam-piece: 75px;
+  --tam-home: 5rem; // 80 pixel
 }
 
 body {
@@ -17,4 +19,6 @@ body {
   font-weight: 400;
   font-size: 1rem;
   color: #0f0f0f;
+  
+  background: #333230;
 }

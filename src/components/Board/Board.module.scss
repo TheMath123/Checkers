@@ -1,0 +1,31 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+}
+
+@media (max-height: 650px) {
+  .board {
+    margin-top: 1%;
+  }
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black {
+  width: var(--tam-home);
+  height: var(--tam-home);
+
+  background: #000000;
+}
+
+.white {
+  width: var(--tam-home);
+  height: var(--tam-home);
+
+  background: var(--white);
+}

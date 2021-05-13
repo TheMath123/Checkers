@@ -1,0 +1,25 @@
+.bodyPiece {
+  width: calc(var(--tam-home) - 15%);
+  height: calc(var(--tam-home) - 15%);
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 2rem;
+    opacity: 0.5;
+  }
+}
+
+.redPiece {
+  border: 2px solid var(--border-red);
+  background: var(--red);
+}
+
+.blackPiece {
+  border: 2px solid var(--border-black);
+  background: var(--black);
+}

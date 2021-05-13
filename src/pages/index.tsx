@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Board from '../components/Board/Board'
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   let flag = true; //true = black or false = white
@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Checkers</title>
       </Head>
-      < Board />
+      <Board />
     </div>
   )
 }
