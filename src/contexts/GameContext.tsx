@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react"
 
 type Piece = {
   isLady: boolean;
-  isBlack:boolean;
+  isBlack:boolean; //is piece team black
   color: boolean; //true is white or false is black
   posX: number; //position x in board
   posY: number; //position y in board

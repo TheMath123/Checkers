@@ -3,12 +3,13 @@ import Piece from '../Piece/Piece';
 import styles from './Board.module.scss';
 
 export default function Board(){
-  let isBlack, isLady;
+  
 
   
   function random(){
+    let isBlack:boolean, isLady: boolean;
+
     let random = Math.floor(Math.random() * 4);
-    console.log(random)
     switch(random){
       case 1:
         isBlack = true;
@@ -30,6 +31,8 @@ export default function Board(){
         isLady = true;
         break;
     }
+
+    return { isBlack, isLady};
   }
 
   function renderBoard(){ //Renderizando tabuleiro
@@ -43,10 +46,11 @@ export default function Board(){
           board.push(<div className={`${styles.white} ${styles.home}`}></div>)
         }else{
           flag = true;
-          
+          const { isBlack, isLady } = random();
+
           board.push(
             <div className={`${styles.black} ${styles.home}`}>
-              <Piece value={ isBlack, isLady }/>
+              <Piece isBlack={isBlack} isLady={isLady} />
             </div>
           )
         }
