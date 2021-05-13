@@ -1,5 +1,5 @@
 {
-  "name": "dama",
+  "name": "checkers",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,11 @@
   "devDependencies": {
     "@types/node": "^15.0.3",
     "@types/react": "^17.0.5",
+    "eslint": "^7.26.0",
     "typescript": "^4.2.4"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/TheMath123/Checkers.git",
+  "author": "Matheus P. Agostinho <mat.matheus_pa@hotmail.com>",
+  "license": "MIT"
 }

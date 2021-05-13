@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --black: #0f0f0f;
+  --white: #f0f0f0;
+  --red: #800000;
+
+  --tam-piece: 75px;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #0f0f0f;
+}
