@@ -5,23 +5,3 @@
 }
 
 
-.board {
-  display: grid;
-
-}
-
-.black {
-  width: var(--tam-piece);
-  height: var(--tam-piece);
-
-  border: 1px solid black;
-  background: var(--black);
-}
-
-.white {
-  width: var(--tam-piece);
-  height: var(--tam-piece);
-
-  border: 1px solid black;
-  background: var(--white);
-}
