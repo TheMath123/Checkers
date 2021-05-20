@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 
@@ -20,5 +21,7 @@ body {
   font-size: 1rem;
   color: #0f0f0f;
   
+  height: 100%;
+
   background: #333230;
 }

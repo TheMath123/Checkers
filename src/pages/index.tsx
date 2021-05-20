@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head'
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
 
 import Board from '../components/Board/Board'
 
@@ -15,7 +17,9 @@ export default function Home() {
       <Head>
         <title>Checkers</title>
       </Head>
-      <Board />
+      <DndProvider backend={HTML5Backend}>
+        <Board />
+      </DndProvider>
     </div>
   )
 }
